@@ -1,7 +1,11 @@
 package com.example;
 
+import com.example.model.Person;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        //Personオブジェクトを作成
+        Person person = new Person("山田太郎", 30);
+        person.introduce();
     }
 }
